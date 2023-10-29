@@ -1,3 +1,5 @@
+// Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
 function findMaxConsecutiveOnes(nums: number[]): number {
   let consecutiveOne: number = 0;
   let maximumOne: number = 0;
