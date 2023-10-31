@@ -17,15 +17,12 @@
  *
  * Follow up: Squaring each element and sorting the new array is very trivial, could you find an O(n) solution using a different approach?
  */
-
-function sortedSquares(nums: number[]): number[] {
-  let arrayNonDecreasing: Array<number> = [];
-
-  for (let num of nums) {
-    arrayNonDecreasing.push(Math.pow(num, 2));
-  }
-
-  return arrayNonDecreasing.sort((a, b) => a - b);
+function sortedSquares(nums) {
+    var arrayNonDecreasing = [];
+    for (var _i = 0, nums_1 = nums; _i < nums_1.length; _i++) {
+        var num = nums_1[_i];
+        arrayNonDecreasing.push(Math.pow(num, 2));
+    }
+    return arrayNonDecreasing.sort(function (a, b) { return a - b; });
 }
-
 console.log(sortedSquares([1, 2, -23, 3, 5, -542]));
