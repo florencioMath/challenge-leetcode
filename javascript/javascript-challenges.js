@@ -24,3 +24,25 @@
 // };
 
 // *****************************************************************************//
+
+// Challenge - 0009. Palindrome Number
+// /**
+//  * @param {number} x
+//  * @return {boolean}
+//  */
+// var isPalindrome = function(x) {
+//   return x === Number(x.toString().split('').reverse().join(''));
+//
+//   if(x < 0) return false;
+//
+//   // let reversed = 0;
+//   // let copy = x;
+//
+//   // while(x > 0) {
+//   //     reversed = (reversed * 10) + (x % 10);
+//   //     x = Math.floor(x / 10);
+//   // }
+//   // return reversed === copy;
+// };
+
+// *****************************************************************************//
